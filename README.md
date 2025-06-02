@@ -88,7 +88,8 @@ Port 5000 is used by Flask app inside the Docker container, mapped to host port 
 
 Make sure no other service is using port 5000 on your Jenkins server
 
-You can add webhook triggers in GitHub to automatically start builds on commits (optional)
+You can add webhook triggers in GitHub to automatically start builds on commits (optional).
+
 
 outcome of the project Result ✅
 https://1drv.ms/i/c/79020f308116c3bc/EQWa0tLYvixDiY_dUj9MLC8BwuiUDvfZBRM5965Yi7e5wg?e=35mRCr
