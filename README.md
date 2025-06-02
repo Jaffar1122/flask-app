@@ -38,7 +38,7 @@ It shows how to automate building a Docker image, running a container, and deplo
 
 ## Jenkins Pipeline Script
 
-```groovy
+
 pipeline {
     agent any
 
@@ -65,7 +65,8 @@ pipeline {
         }
     }
 }
-How to Run
+
+#How to Run
 Clone this repo to Jenkins workspace
 
 Create a Jenkins pipeline job and paste the above script
@@ -81,17 +82,16 @@ Run the Jenkins pipeline job
 
 Visit http://<JENKINS_SERVER_IP>:5000 to see the Flask app running in Docker container
 
-Notes
+Notes:
+
 Port 5000 is used by Flask app inside the Docker container, mapped to host port 5000
 
 Make sure no other service is using port 5000 on your Jenkins server
 
 You can add webhook triggers in GitHub to automatically start builds on commits (optional)
 
-
-My result🚀 
+outcome of the project Result ✅
 https://1drv.ms/i/c/79020f308116c3bc/EQWa0tLYvixDiY_dUj9MLC8BwuiUDvfZBRM5965Yi7e5wg?e=35mRCr
-
 
 Author
 Jaffar Hussain
@@ -99,12 +99,14 @@ Jaffar Hussain
 License
 MIT License
 
-Feel free to explore and modify the pipeline for your own projects!
 
-yaml
-Copy
-Edit
 
----
 
-#
+
+
+
+
+
+
+
+
